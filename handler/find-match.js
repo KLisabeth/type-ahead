@@ -23,5 +23,6 @@ function displayMatches() {
       </li>
     `;
   }).join('');
+  const suggestions = document.querySelector('.suggestions');
   suggestions.innerHTML = html;
 }
